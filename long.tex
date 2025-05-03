@@ -17,24 +17,23 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TITLE SECTION
 \begin{center}
-    \name{Alice Alice}
-    \contact
-        {999$\cdot$999$\cdot$9999}
-        {\href{mailto://alice@spaceship.com}{alice@spaceship.com}}
-        {\href{https://alice.ship}{alice.ship}}
+    \name{Sergio Giménez Antón} %
+    {\href{mailto:hi@sergiogimenez.com}{hi@sergiogimenez.com}} |
+    {\href{https://sergiogimenez.com}{sergiogimenez.com}}
 \end{center}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION 
-\section{Education} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION
+\section{Education}
 \begin{content}
-    {\bf Einstein Labs} {M.Sc. Inertial Frames} \hfill {\bf 2021 --} 
+    {\bf UPC - ETSETB, Barcelona, Spain} {Master's Degree in Advanced Telecommunication Technologies} \hfill {\bf 2020 -- 2022} %
 
-    {\bf Lorentz Institution} \hfill {\bf 2017 -- 2020} \\ 
-    {B.Sc. Time Dilation {\em\&} Length Contraction, Minor Simultaneity} \hfill 
-    {\em CGPA: \textpl{4.0/4.0} \quad Dean's List}
-    
-    % \vspace{-.25\baselineskip}
-    % {\em Honours:} If you'd rather list your awards here than in a separate section later, simply write the awards here and comment out that section (and vice versa).
+    {\bf Aristotle University of Thessaloniki (AUTH), Greece} {Diploma Thesis} \hfill {\bf Feb 2020 -- Jul 2020} %
+    \newline{Design, setup and implementation of a low-cost prototype system to evaluate the performance of a transcutaneous optical link} %
+
+    {\bf UPC - ETSETB, Barcelona, Spain} \hfill {\bf 2015 -- 2020} \\ %
+    {Bachelor Degree, Computer Systems Networking and Telecommunications} \hfill %
+    % {\em CGPA: \textpl{X.X/X.X} \quad Optional details} % Add details if available
+
 \sectionlineskip
 \end{content}
 
@@ -42,82 +41,101 @@
 \section{Research Experience}
 \begin{content}
 
-    \begin{position}{Relativity Research Group}{May 2020 -- present}{Research intern}{Prof.~Hermann Minkowski}{Institution}
-    \item Participated in experiments involving travelling at very high speeds holding clocks and rulers.
-    \item This is an environment for your positions with 5 fields: research group or topic, date, position name, professor or group, institution. 
+    \begin{position}{12CAT FOUNDATION}{Sep 2020 -- present}{R\&D Engineer}{}{Barcelona, Spain} %
+    \item Designing and implementing recursive network paradigms for different fields: Quantum networks, 5G/6G networks and virtualised networks (container and virtual network functions).
+    \item Working within the automation of the european GÉANT network.
+    \item Working with and extending virtualization technologies such as QEMU/KVM, Docker and Kubernetes.
+    \item Working with implementation of APIs to implement "Network as a Service" paradigm in telco-like networks.
     \end{position}
-    \vspace{-.5\baselineskip}
-    Here's a little comment after a position if you want one (not really recommended).
 
-    \begin{position}{Bathtub Labs}{January 2021 -- present}{Junior Tree Researcher}{}{}
-    \item If you want to remove the second line (professor and institution), simply leave those two fields empty. 
+    \begin{position}{Aristotle University}{Feb 2020 -- Jul 2020}{Research Engineer}{Wireless Comunications Systems Group}{Thessaloniki, Greece} %
+    \item Developing the diploma thesis: Development of a low-cost prototype to evaluate the performance of Transdermal Optical Links.
+    \end{position}
+
+    \begin{position}{12CAT FOUNDATION}{Aug 2019 -- Jan 2020}{Research Engineer Intern}{}{Barcelona, Spain} %
+    \item Working within the RINA architecture backround developing a P4 implementation of the RINA data transfer and data transfer control elements.
     \end{position}
 
 \sectionlineskip
 \end{content}
 \vspace{-3\medskipamount}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PUBLICATIONS 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PUBLICATIONS
+% Note: Ensure 'biblio.bib' contains chronologically sorted entries.
 \noindent
 \renewcommand{\refname}{Publications}   % name of the reference section
 \bibliography{biblio.bib}               % bib file
-\bibliographystyle{abbrvnat}            % citation style
-\nocite{*}
+\bibliographystyle{unsrtnat}            % <-- CHANGED STYLE HERE
+\nocite{*} % Use \nocite{*} to list all entries in biblio.bib in the order they appear
 \sectionlineskip
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AWARDS
-\section{Awards} 
+% \section{Awards}
+% \begin{content}
+    % \prize[s]{Award Name}{Year}{Description}
+    % \prize{Another Award}{Year}{Longer description on the next line.}
+% \sectionlineskip
+% \end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PROJECTS & EXTRACURRICULARS
+\section{Projects \textbf{\em\&} Extracurriculars}
 \begin{content}
-    \prize[s]{1\textsuperscript{st} place, A Short Prize}{2020}{has its description on the same line and the option is toggled with \texttt{[s]}.}
-    
-    \prize{A Scholarship with a Longer Name}{2020, 2021}{This is the default option and has its description on a separate line. Add as many of these as you would like.}
+
+    \begin{position}{Hahatay Community Network}{Sep 2020 -- present}{Volunteer Coordinator}{}{Gandiol, Senegal} %
+        \item Technical management of the project, supervision of UPC students.
+        \item Conducting and organizing annual visits to Senegal for maintenance and expansion of the network.
+        \item Project website: \href{https://hahatay.network}{hahatay.network}.
+    \end{position}
+
+    \begin{position}{GÉANT 5-1 Project}{Jan 2022 -- Dec 2024}{Developer}{}{} %
+        \item Contributed to automating the deployment of the GÉANT Automation Platform.
+        \item Developing a web application for deploying virtual topologies (Containerlab as a service).
+        \item Link: \href{https://docs.gap.geant.org/}{docs.gap.geant.org}.
+    \end{position}
+
+    \begin{position}{Smart5Grid Project}{Mar 2023 -- Jun 2024}{Developer}{}{} %
+        \item Implemented a Python-based backend component for automated deployment of Kubernetes-based apps.
+        \item Link: \href{https://smart5grid.eu/}{smart5grid.eu}.
+    \end{position}
+
+     \begin{position}{6G-ENABLERS-DLT Project}{Sep 2023 -- Dec 2024}{Developer}{}{} %
+        \item Implemented a Python-based intent engine backed with large language models.
+        \item Link: \href{https://i2cat.net/unico/6genablers/}{i2cat.net/unico/6genablers}.
+    \end{position}
+
+    \begin{position}{Open-VERSO Project}{Sep 2020 -- Sep 2023}{Contributor}{}{} %
+        \item Participated in the design of the interconnectivity for the federated testbeds.
+        \item Implemented a RINA stack in C using netmap.
+        \item Link: \href{https://www.openverso.org/en/}{openverso.org}.
+    \end{position}
+
+    % Add other projects like 6G-Open-VERSO-NET, SDN in private partnerships similarly if desired.
+
+    \begin{position}{UE Claret}{Aug 2013 -- Jan 2020}{Head Basketball Coach}{}{Barcelona, Spain} %
+     \item Coached basketball teams of different genders and ages.
+    \end{position}
+
 \sectionlineskip
-\end{content}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PROJECTS
-\section{Projects \textbf{\em\&} Extracurriculars} 
-\begin{content}
-    
-    \begin{position}{Einstein Institution}{August 1978 -- present}{Experimenter}{}{}
-        \item Stood in many elevators careening towards earth, and travelled into the event horizon of black holes. 
-        \item Further mastered holding clocks and rulers.
-    \end{position}
-    
-    \begin{position}{Seminars on Relativity in Space}{Sept. 2020 -- Jan. 2021}{Organizer}{}{}
-    \item Organizing the 2021 edition of the conference, hosted on a spaceship travelling at .9 of the speed of light.
-    \end{position}
-    
-    \begin{position}{Lorentzian Geometry}{Summer 2020}{\normalfont\href{https://alice.ship/lorentz}{\texttt{alice.ship/lorentz}}}{}{}
-    \item A project description on its own line so that it can be pretty long, though I can't think of what to write here.  
-    \end{position}
-    
-    {\bf Very Simple Project} \enspace {\href{https://alice.ship/lorentz}{\texttt{alice.ship/lorentz}} 
-    {\em A really simple entry with inline description} }
-    \hfill {\bf 2018 -- present}
-
-\sectionlineskip    
 \end{content}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TECHNICAL SKILLS
 \section{Technical Skills}
 \begin{content}
     \begin{tabular}{ @{} >{\bf}l @{\hspace{6ex}} l }
-        Programming Languages & Python, \LaTeX\ {\em \&} \TeX \\
-        Tools \textbf{\em\&} Technologies & Spaceship steering \\
-        Languages & Earth languages
+        Programming Languages & Python, C, P4 \\ % Adapted from
+        Tools \textbf{\em\&} Technologies & Linux, RINA, netmap, SDN, Docker, QEMU/KVM, Kubernetes \\ % Adapted from
+        Networking & Network Design, Virtualization, Automation, 5G/6G concepts, APIs \\ % Inferred from Experience
+        Languages & Spanish (Native), Catalan (Native), English (C1), French (A2) %
     \end{tabular}
 \sectionlineskip
 \end{content}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COURSE WORK
-\section{Selected Course Work}
-\begin{tabular}{l l l}
-        \qquad {\bf Mathematics} & \qquad {\bf Physics} & \qquad {\bf Computer Science} \\[.5\smallskipamount]
-        
-        Analysis Sequence & Classical {\em\&} Quantum Mechanics & H. Algorithms {\em \&} Data Structures \\ 
-        Complex Analysis & Thermal {\em \&} Statistical Physics & Mathematical Foundations of Machine Learning \\
-        Abstract  Algebra & General Relativity & Reinforcement Learning \\
-        Cryptography &  Quantum Field Theory & Probabilistic Analysis of Algorithms 
-\end{tabular}
+% \section{Selected Course Work}
+% \begin{tabular}{l l l}
+        % \qquad {\bf Area 1} & \qquad {\bf Area 2} & \qquad {\bf Area 3} \\[.5\smallskipamount]
+        % Course 1 & Course A & Course X \\
+        % Course 2 & Course B & Course Y \\
+% \end{tabular}
 
 \end{document}
